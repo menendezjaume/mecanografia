@@ -49,3 +49,19 @@ Las frases se encuentran en el arreglo `phrases` dentro del archivo `index.html`
 ```javascript
 const phrases = ["Nueva frase de ejemplo.", "Otra frase para practicar mecanografía."];
 ```
+
+### Cambiar el estilo
+
+Modifica los estilos CSS en la sección `<style>` dentro del archivo `index.html` para personalizar la apariencia.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si tienes sugerencias o mejoras, no dudes en hacer un _pull request_ o abrir un _issue_.
+
+## Autor
+
+Desarrollado por [Miguel Ángel Menéndez Jaume](https://github.com/menendezjaume). Inspirado en ejercicios prácticos de mecanografía y diseñado para mejorar las habilidades de escritura.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes utilizarlo libremente, pero no se ofrece ninguna garantía.
