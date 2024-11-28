@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen de Mecanografía</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="centered">
+        <h1>Examen de Mecanografía</h1>
+        <div class="phrase" id="phrase"></div>
+        <input type="text" id="input" class="input-box" placeholder="Escribe aquí..." />
+        <p>Errores: <span id="errors" class="errors">0</span></p>
+        <button onclick="newPhrase()">Nueva frase</button>
+      </div>
+      <div class="popup" id="popup">
+        <p id="popupMessage"></p>
+        <button onclick="newPhrase()">Nueva frase</button>
+      </div>
+      <div class="veil" id="veil"></div>
+    </div>
+    <div class="zoom-buttons">
+      <button onclick="adjustZoom(0.1)">+</button>
+      <button onclick="adjustZoom(-0.1)">-</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
