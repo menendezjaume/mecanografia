@@ -63,6 +63,8 @@ function newPhrase() {
   updateCursor(0);
   document.getElementById("popup").style.display = "none";
   document.getElementById("veil").style.display = "none";
+  // Establecer el foco en el cuadro de entrada
+  document.getElementById("input").focus();
 }
 
 // Manejar la entrada de texto
